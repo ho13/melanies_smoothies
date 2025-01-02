@@ -28,7 +28,7 @@ st.write('The name on your Smoothie will be:', name_on_order  )
 
 
 # -- Display the Fruit Options List (insert a table)
-cnx = st.connection("snowflake")
+cnx = st.connection("snowflake", account="TGGTTHA-VIB03281", user="hoybd")
 session = cnx.session()
 my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT_NAME')) 
 # st.dataframe(data=my_dataframe, use_container_width=True) -- show the dataframe
