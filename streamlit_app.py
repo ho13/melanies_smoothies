@@ -1,4 +1,4 @@
-pip install snowflake-snowpark-python 
+!pip install snowflake-snowpark-python 
 
 # -- Import python packages
 import streamlit as st
