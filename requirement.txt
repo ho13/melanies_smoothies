@@ -1,6 +1,9 @@
-python=3.9
-snowflake-connector-python
+# requirements.txt
 snowflake-snowpark-python
 streamlit
+requests
+
+python=3.9
+snowflake-connector-python
 
 
