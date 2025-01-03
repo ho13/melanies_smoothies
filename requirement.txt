@@ -1,4 +1,6 @@
 python=3.9
+snowflake-connector-python
 snowflake-snowpark-python
 streamlit
+
 
