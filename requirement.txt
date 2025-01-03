@@ -4,7 +4,6 @@ streamlit
 requests
 pandas
 
-python=3.9
 snowflake-connector-python
 
 
