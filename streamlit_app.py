@@ -1,6 +1,6 @@
 # -- Import python packages
 import streamlit as st
-# from snowflake.snowpark.context import get_active_session
+from snowflake.snowpark.context import get_active_session
 import pandas as pd
 
 # -- import the function col so that we bring back only the column name at rather than the whole table at line 26 
