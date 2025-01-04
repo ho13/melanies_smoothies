@@ -40,7 +40,6 @@ my_dataframe = session.table("smoothies.public.fruit_options").select(col('FRUIT
 pd_df = my_dataframe.to_pandas()
 st.dataframe(pd_df)
 
-
 # -- Add a multiselect (the data type of the ingredients_list variable is a LIST)
 ingredients_list = st.multiselect(
     'Choose up to 5 ingredients:'
